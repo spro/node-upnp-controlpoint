@@ -5,10 +5,10 @@ var util = require("util");
  * 
  * Requires mqttjs library
  */
-var UpnpControlPoint = require("../lib/upnp-controlpoint").UpnpControlPoint,
-	wemo = require("../lib/wemo"),
+var UpnpControlPoint = require("./lib/upnp-controlpoint").UpnpControlPoint,
+	wemo = require("./lib/wemo"),
 	mqtt = require('mqtt'),
-   	crypto = require('crypto');
+  crypto = require('crypto');
 
 var TRACE = true;
 var DETAIL = false;
