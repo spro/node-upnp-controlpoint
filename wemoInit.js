@@ -4,4 +4,4 @@ var UpnpControlPoint = require("./lib/upnp-controlpoint").UpnpControlPoint
 var cp = new UpnpControlPoint();
 cp.search();
 
-exports.devices = cp.devices;
+exports.cp = cp;
