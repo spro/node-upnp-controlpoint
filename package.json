@@ -9,10 +9,10 @@
     "examples": "examples"
   },
   "dependencies": {
-    "xml2js": "~0.2.3"
+    "xml2js": "0.2.8"
   },
   "devDependencies": {
-    "mqtt": "*"
+    "mqtt": "1.1.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
